@@ -13,6 +13,13 @@ A full-stack project that simulates financial transactions, detects fraud using 
 - MongoDB
 - Uvicorn
 
+## Features:
+- Simulates 5,000+ realistic transaction records
+- Stores and queries data using MongoDB
+- Trains a machine learning model (RandomForest) to identify fraud patterns
+- Provides a FastAPI-based REST endpoint for real-time fraud prediction
+- Saves predictions back to the database for auditing and future retraining
+  
 ## To Run:
 - `simulate_transactions.py` to populate MongoDB
 - `train_model.py` to train the model
